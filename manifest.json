@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "치지직 라이브 감지기",
+  "version": "1.0.0",
+  "description": "치지직 채널의 liveId 변경을 감지하여 자동으로 새로고침합니다.",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://chzzk.naver.com/*",
+    "https://api.chzzk.naver.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chzzk.naver.com/live/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
