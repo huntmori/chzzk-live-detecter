@@ -47,7 +47,7 @@ chzzk-live-detector/
 저장소를 클론하거나 ZIP으로 다운로드합니다.
 ```
 bash
-git clone [<REPOSITORY_URL>](https://github.com/huntmori/chzzk-live-detecter.git)
+git clone https://github.com/huntmori/chzzk-live-detecter.git
 ```
 ### 2) 크롬 확장 프로그램으로 불러오기
 1. 크롬에서 `chrome://extensions` 로 이동합니다.
