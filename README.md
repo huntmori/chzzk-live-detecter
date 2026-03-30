@@ -3,7 +3,13 @@
 치지직 라이브 페이지의 `liveId` 변경을 감지해 자동으로 새로고침해 주는 크롬 확장 프로그램입니다.
 
 방송이 재시작되거나 세션이 갱신되어 기존 페이지가 멈춘 것처럼 보일 때, 새 라이브 상태를 빠르게 반영할 수 있도록 도와줍니다.
-
+<a href="https://www.donericano.com/creator/huntmori" target="_blank" style="display: inline-flex; align-items: center; gap: 12px; padding: 12px 24px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 50px; font-weight: 700; font-size: 16px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); border: 2px solid transparent; max-width: 320px; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+  <div style="width: 32px; height: 32px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.5); background: rgba(255, 255, 255, 0.2); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 14px; color: white; font-weight: bold;">H</div>
+  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; flex: 1; overflow: hidden;">
+    <div style="font-size: 15px; font-weight: 700; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;">huntmori</div>
+    <div style="font-size: 12px; opacity: 0.9; font-weight: 500;">응원하기</div>
+  </div>
+</a>
 ## 주요 기능
 
 - 치지직 라이브 채널의 `liveId` 주기적 확인
